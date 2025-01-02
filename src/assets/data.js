@@ -1,27 +1,27 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Solo Tecno",
+    subtitle: "PERN Stack",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    image: "src/assets/img/Screenshot 2025-01-02 at 13.29.12.png",
+    link: "https://solotecno.netlify.app",
+  },
+  {
+    title: "Pizzeria",
+    subtitle: "React",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./src/assets/img/pexels-fauxels-3184170.jpg",
-    link: "https://reactbootcamp.com",
+    link: "https://sweet-blancmange-936ded.netlify.app/",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./src/assets/img/pexels-fauxels-3184170.jpg",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
+    title: "API Rest Jewelry store",
     subtitle: "React and Firebase",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./src/assets/img/pexels-fauxels-3184170.jpg",
-    link: "https://reactbootcamp.com",
+    link: "https://github.com/cristianrozas-cr/tienda_de_joyas_API_REST",
   },
   {
     title: "Epic Todo App",
@@ -57,4 +57,6 @@ export const skills = [
   "Node",
   "CSS",
   "SQL",
+  "Figma",
+  "Git"
 ];
