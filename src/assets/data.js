@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "React",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./src/assets/img/pexels-fauxels-3184170.jpg",
+    image: "src/assets/img/Screenshot 2025-01-02 at 19.22.54.png",
     link: "https://sweet-blancmange-936ded.netlify.app/",
   },
   {
@@ -24,12 +24,12 @@ export const projects = [
     link: "https://github.com/cristianrozas-cr/tienda_de_joyas_API_REST",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Corporate Websites",
+    subtitle: "Wordpress + Elementor",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./src/assets/img/pexels-fauxels-3184170.jpg",
-    link: "https://reactbootcamp.com",
+    image: "src/assets/img/Screenshot 2025-01-02 at 19.21.26.png",
+    link: "https://linktr.ee/cristianrozas_",
   },
 ];
 

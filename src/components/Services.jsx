@@ -7,7 +7,7 @@ import { MdOutlineWeb } from "react-icons/md";
 export default function Services() {
     return (
       <>
-          <section id="projects" className="text-gray-400 bg-gray-900 body-font rounded-lg">
+          <section id="services" className="text-gray-400 bg-gray-900 body-font rounded-lg">
       <div className="container py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
