@@ -31,7 +31,7 @@ export default function Navbar() {
               </a>
               <a className="title-font font-medium text-white mb-4 md:mb-0 mx-5 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 ">
                 <a href="#about" className="ml-3 text-xl text-white flex p-2">
-                  <img src="src/assets/img/cristian rozas.png" alt="" className="w-28"/>
+                  <img src="/img/cristian rozas.png" alt="" className="w-28"/>
                 </a>
               </a>
               <a

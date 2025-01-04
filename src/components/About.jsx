@@ -15,7 +15,7 @@ export default function About() {
               <br/> 
               <h2 className="hidden lg:inline-block sm:text-6xl animate-pulse">Software Developer</h2>
               </h1>
-              <img src="public/foto de perfil de LinkedIn hombre elegante(1).png" alt="" className="w-1/3"/>
+              <img src="img/foto de perfil de LinkedIn hombre elegante(1).png" alt="" className="w-1/3"/>
             </div>
           <p className="mb-8 leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui

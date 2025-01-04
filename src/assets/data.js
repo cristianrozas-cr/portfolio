@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "PERN Stack",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "src/assets/img/Screenshot 2025-01-02 at 13.29.12.png",
+    image: "/img/Screenshot 2025-01-02 at 13.29.12.png",
     link: "https://solotecno.netlify.app",
   },
   {
@@ -12,7 +12,7 @@ export const projects = [
     subtitle: "React",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "src/assets/img/Screenshot 2025-01-02 at 19.22.54.png",
+    image: "/img/Screenshot 2025-01-02 at 19.22.54.png",
     link: "https://sweet-blancmange-936ded.netlify.app/",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     subtitle: "React and Firebase",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./src/assets/img/pexels-fauxels-3184170.jpg",
+    image: "/img/pexels-fauxels-3184170.jpg",
     link: "https://github.com/cristianrozas-cr/tienda_de_joyas_API_REST",
   },
   {
@@ -28,7 +28,7 @@ export const projects = [
     subtitle: "Wordpress + Elementor",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "src/assets/img/Screenshot 2025-01-02 at 19.21.26.png",
+    image: "/img/Screenshot 2025-01-02 at 19.21.26.png",
     link: "https://linktr.ee/cristianrozas_",
   },
 ];
