@@ -13,6 +13,7 @@ export default function Contact() {
           </div>
         </div> */}
         <form
+          netlify
           name="contact"
           method="POST"
           data-netlify="true"

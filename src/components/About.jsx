@@ -17,11 +17,9 @@ export default function About() {
               </h1>
               <img src="img/foto de perfil de LinkedIn hombre elegante(1).png" alt="" className="w-1/3"/>
             </div>
-          <p className="mb-8 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-            laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-            Laborum, voluptas natus?
-          </p>
+            <p className="mb-8 leading-relaxed flex items-center justify-center text-white">
+            Passionate about creating innovative and functional web solutions. My focus is on designing digital experiences that connect with users needs. Explore my portfolio and discover how I can contribute to your next project.
+            </p>
           </div>
           <div className="flex justify-center ">
             <a
