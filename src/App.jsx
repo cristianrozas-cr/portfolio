@@ -4,9 +4,8 @@ import Navbar from "./components/Navbar"
 import About from "./components/About"
 import Projects from "./components/Projects"
 import Skills from "./components/Skills"
-import Contact from "./components/Contact"
 import Services from './components/Services'
-import Experience from './components/Experience'
+import AboutMe from './components/AboutMe'
 import { ShaderGradientCanvas, ShaderGradient } from '@shadergradient/react'
 
 function App() {
@@ -34,10 +33,9 @@ function App() {
       <Navbar />
       <About />
       <Services />
-      <Experience />
       <Projects />
       <Skills />
-      <Contact />
+      <AboutMe />
     </main>
     </>
   )

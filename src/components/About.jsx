@@ -1,4 +1,6 @@
-
+import { MdOutlineEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 export default function About() {
 
@@ -6,38 +8,56 @@ export default function About() {
   return (
     <>
     <section id="about">
-      <div className="flex md:flex-row flex-col items-center justify-center mb-20 imagen bg-cover h-screen">
-        <div className="lg:flex-grow md:w-full md:h-max lg:pr-24 md:pr-16 flex flex-col md:items-center md:text-left items-center text-center overlay px-20 py-28 ">
-          <div className="flex flex-col items-center">
-            <div className="flex items-center justify-around text-white">
-              <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
+  <div className="flex md:flex-row flex-col-reverse items-center justify-center bg-cover h-screen">
+    {/* Contenido del texto */}
+    <div className="lg:flex-grow md:w-full md:h-max lg:pr-14 md:pr-16 flex flex-col md:items-center md:text-left items-center text-center overlay">
+      <div className="flex md:flex-row flex-col items-center">
+        <div className="flex items-center justify-around text-white">
+          <div>
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
               Hello, I am <span className="text-violet-500">Cristian Rozas</span>
-              <br/> 
-              <h2 className="hidden lg:inline-block sm:text-6xl animate-pulse">Software Developer</h2>
-              </h1>
-              <img src="img/foto de perfil de LinkedIn hombre elegante(1).png" alt="" className="w-1/3"/>
+              <br />
+              <h2 className="lg:inline-block sm:text-6xl animate-pulse">
+                Software Developer
+              </h2>
+            </h1>
+            <div className="flex justify-center align-center items-center">
+              <a
+                href="mailto:cristianrozas.cr@gmail.com"
+                className="m-2 flex justify-center align-center items-center text-white bg-green-600 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg hover:text-white transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
+              >
+                <MdOutlineEmail className="mr-2" />
+                Email
+              </a>
+              <a
+                href="https://www.linkedin.com/in/cristianrozas/"
+                className="m-2 flex justify-center align-center items-center text-white bg-blue-700 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg hover:text-white transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300"
+              >
+                <FaLinkedin className="mr-2" />
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/cristianrozas-cr"
+                className="m-2 ml-4 flex justify-center align-center items-center text-gray-50 border-0 py-2 px-6 focus:outline-none bg-violet-700 hover:text-white rounded text-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"
+              >
+                <FaGithub className="mr-2" />
+                Github
+              </a>
             </div>
-            <p className="mb-8 leading-relaxed flex items-center justify-center text-white">
-            Passionate about creating innovative and functional web solutions. My focus is on designing digital experiences that connect with users needs. Explore my portfolio and discover how I can contribute to your next project.
-            </p>
-          </div>
-          <div className="flex justify-center ">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-violet-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg hover:text-white transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300">
-              Contact me
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-50 bg-gray-500 border-0 py-2 px-6 focus:outline-none hover:bg-violet-900 hover:text-white rounded text-lg transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300">
-              My projects
-            </a>
           </div>
         </div>
-        {/* <div className="md:w-1/2 w-5/6 imagen bg-cover bg-center h-96 rounded">
-        </div> */}
       </div>
-    </section>
+    </div>
+    {/* Imagen */}
+    <div className="w-full md:w-1/2 md:mb-0 md:pl-6">
+      <img
+        src="img/foto de perfil de LinkedIn hombre elegante(1).png"
+        alt="Cristian Rozas"
+        className="w-2/3 mx-auto md:w-full rounded-full"
+      />
+    </div>
+  </div>
+</section>
     </>
   )
 }
