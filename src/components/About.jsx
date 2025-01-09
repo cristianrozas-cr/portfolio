@@ -5,6 +5,15 @@ import { MdDownload } from "react-icons/md";
 
 export default function About() {
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/Cristian-Alonso-Rozas-Carrasco-Resume.pdf'; // Ruta del archivo en la carpeta public
+    link.download = 'cristian-rozas-resume.pdf'; // Nombre con el que se descargará
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
 
   return (
     <>
@@ -46,9 +55,10 @@ export default function About() {
               </a>
               <a
               href="#resume"
+              onClick={handleDownload}
               className="flex md:hidden m-2 flex justify-center align-center items-center text-gray-50 border-0 py-2 px-6 focus:outline-none bg-sky-500 hover:text-white rounded text-lg transition ease-in-out md:hover:-translate-y-1 md:hover:scale-110 hover:bg-violet-600 duration-300">
               Resume
-              <MdDownload className="mr-2" />
+              <MdDownload className="mr-2"/>
               </a>
             </div>
           </div>

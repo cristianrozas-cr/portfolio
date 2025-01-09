@@ -1,12 +1,9 @@
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
 import { MdDownload } from "react-icons/md";
 export default function Navbar() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'public/Cristian-Alonso-Rozas-Carrasco-Resume.pdf'; // Ruta del archivo en la carpeta public
+    link.href = '/Cristian-Alonso-Rozas-Carrasco-Resume.pdf'; // Ruta del archivo en la carpeta public
     link.download = 'cristian-rozas-resume.pdf'; // Nombre con el que se descargará
     document.body.appendChild(link);
     link.click();
