@@ -11,24 +11,24 @@ export default function AboutMe() {
       </h1>
       
       <div className="flex flex-col md:flex-row m-8 items-center justify-evenly mx-auto">
-        <div className="flex justify-center items-center w-1/2">
-          <img src="public/img/IMG_4823.JPG" alt="" className="w-1/2 rounded"/>
+        <div className="flex justify-center items-center w-full md:w-1/2">
+          <img src="/img/IMG_4823.JPG" alt="" className="w-1/2 rounded m-4"/>
         </div>
-        <div className="w-1/2">
-          <p>Hola, soy Cristian, un apasionado del mundo de la tecnología y el desarrollo de software. Comencé mi carrera estudiando Ingeniería Comercial, donde adquirí sólidos conocimientos en negocios y gestión.
+        <div className="md:w-1/2 text-justify text-white">
+          <p>Hi, I'm Cristian, I'm passionate about the technology and software development. I started my career studying Business, where I acquired solid knowledge in business and management.
 
-        Actualmente, cambié mi enfoque académico hacia la informática, donde ya cuento con el certificado de Desarrollador Full Stack y actualmente estoy cursando la carrera de técnico en informática. 
+Currently, I changed my academic focus to computer science, where I already have the Full Stack Developer certificate and I am studying a technical degree in computer science. 
         <br />
         <br />
-        Esta transición me ha permitido sumergirme en el mundo de la programación y el desarrollo de software.
+        This transition has allowed me to immerse myself in the world of programming and software development.
 
-        Tengo sólidos conocimientos en inglés ya que tuve la oportunidad de trabajar en Customer Service durante 8 meses en Estados Unidos. Actualmente realizo un curso de inglés técnico para profesionales IT.
+        I have solid English skills since I had the opportunity to work in Customer Service for 8 months in the United States. I am currently taking a technical English course for IT professionals.
 
-        Tengo dominio de varios lenguajes y herramientas, incluyendo: JavaScript, React, Node, Express, HTML, CSS, PostgreSQL, GIT.
+        I am competent in several languages and tools, including: JavaScript, React, Node, Express, HTML, CSS, PostgreSQL, GIT.
         <br />
         <br />
 
-        Estoy emocionado por las oportunidades futuras que me esperan en el campo del desarrollo de software y estoy ansioso por contribuir al éxito de equipos y proyectos tecnológicos.
+        I am excited about the future opportunities that await me in the software development field and am looking forward to contributing to the success of technology teams and projects.
 
         </p>
           

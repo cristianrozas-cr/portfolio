@@ -1,7 +1,8 @@
 import { FaLaptopCode } from "react-icons/fa";
 import { MdDesignServices } from "react-icons/md";
 import { MdOutlineWeb } from "react-icons/md";
-
+import { SlMagnifier } from "react-icons/sl";
+import { TbDeviceMobileSearch } from "react-icons/tb";
 
 export default function Services() {
     return (
@@ -17,28 +18,28 @@ export default function Services() {
           </p>
         </div>
         <div className="flex justify-around flex-wrap">
-            <div className="bg-white w-64 h-64 mx-2 rounded-lg flex flex-col items-center justify-center p-3 text-black mb-8">
+            <div className="bg-white w-64 h-64 mx-2 rounded-lg flex flex-col items-center justify-center p-3 text-black mb-8 focus:outline-none rounded md:hover:border-4 border-violet-700 transition ease-in-out md:hover:-translate-y-1 md:hover:scale-110 duration-300">
             <MdDesignServices color="black" size={100}/>
               <h3 className="mb-2 font-bold">Web Design</h3>
               <p>I create websites that are visually stunning, responsive and aligned with your brand identity, guaranteeing an exceptional user experience.</p>
             </div>
-            <div className="bg-white w-64 h-64 mx-2 rounded-lg flex flex-col items-center justify-center p-3 text-black mb-8">
+            <div className="bg-white w-64 h-64 mx-2 rounded-lg flex flex-col items-center justify-center p-3 text-black mb-8 focus:outline-none rounded md:hover:border-4 border-violet-700 transition ease-in-out md:hover:-translate-y-1 md:hover:scale-110 duration-300">
               <MdOutlineWeb color="black" size={100}/>
               <h3 className="mb-2 font-bold">Web Development</h3>
               <p>I develop fast, secure and optimized websites, using modern technologies to ensure your site meets the highest standards.</p>
             </div>
-            <div className="bg-white w-64 h-64 mx-2 rounded-lg flex flex-col items-center justify-center p-3 text-black mb-8">
+            <div className="bg-white w-64 h-64 mx-2 rounded-lg flex flex-col items-center justify-center p-3 text-black mb-8 focus:outline-none rounded md:hover:border-4 border-violet-700 transition ease-in-out md:hover:-translate-y-1 md:hover:scale-110 duration-300">
               <FaLaptopCode color="black" size={100}/>
               <h3 className="mb-2 font-bold">Full Stack Development</h3>
               <p>From frontend to backend, I build complete, scalable and customized web applications to meet your business needs.</p>
             </div>
-            <div className="bg-white w-64 h-64 mx-2 rounded-lg flex flex-col items-center justify-center p-3 text-black mb-8">
-              <FaLaptopCode color="black" size={100}/>
+            <div className="bg-white w-64 h-64 mx-2 rounded-lg flex flex-col items-center justify-center p-3 text-black mb-8 focus:outline-none rounded md:hover:border-4 border-violet-700 transition ease-in-out md:hover:-translate-y-1 md:hover:scale-110 duration-300">
+              <SlMagnifier color="black" size={100}/>
               <h3 className="mb-2 font-bold">SEO Optimization</h3>
               <p>Technical and content optimizations to improve your page ranking in search engines, increasing visibility and traffic.</p>
             </div>
-            <div className="bg-white w-64 h-64 mx-2 rounded-lg flex flex-col items-center justify-center p-3 text-black mb-8">
-              <FaLaptopCode color="black" size={100}/>
+            <div className="bg-white w-64 h-64 mx-2 rounded-lg flex flex-col items-center justify-center p-3 text-black mb-8 focus:outline-none rounded md:hover:border-4 border-violet-700 transition ease-in-out md:hover:-translate-y-1 md:hover:scale-110 duration-300">
+              <TbDeviceMobileSearch color="black" size={100}/>
               <h3 className="mb-2 mt-2 font-bold">Digital Marketing Strategies</h3>
               <p>I help your brand reach the right audience through customized strategies that combine social media, content and data analysis.</p>
             </div>

@@ -3,7 +3,7 @@ export const projects = [
     title: "Solo Tecno",
     subtitle: "PERN Stack",
     description:
-      "Un sitio web diseñado para una tienda de compraventa de productos tecnológicos, donde los usuarios pueden publicar, vender y comprar artículos como celulares y notebooks. Este proyecto incluye una galería dinámica y un sistema funcional para gestionar productos.",
+      "A website designed for a technology products store, where users can publish, sell and buy items such as cell phones and notebooks. This project includes a dynamic gallery and a functional system to manage products.",
     image: "/img/Screenshot 2025-01-02 at 13.29.12.png",
     link: "https://solotecno.netlify.app",
   },
@@ -11,7 +11,7 @@ export const projects = [
     title: "Pizzeria",
     subtitle: "React",
     description:
-      "Aplicación web desarrollada en React para una pizzería. Incluye un carrito de compras interactivo implementado con Context API, consumo dinámico de datos desde una API, y un diseño amigable para ofrecer una experiencia fluida al usuario.",
+      "Web application developed in React for a pizzeria. It includes an interactive shopping cart implemented with Context API, dynamic data consumption from an API, and a friendly design to provide a smooth user experience.",
     image: "/img/Screenshot 2025-01-02 at 19.22.54.png",
     link: "https://sweet-blancmange-936ded.netlify.app/",
   },
@@ -19,7 +19,7 @@ export const projects = [
     title: "API Rest Jewelry store",
     subtitle: "React and Firebase",
     description:
-      "Backend desarrollado como parte del Desafío Tienda de Joyas de la Academia Desafío LATAM. Esta API REST implementa funciones clave como limitación y filtrado de recursos, paginación, ordenamiento y estructuración de datos con HATEOAS, cumpliendo estándares modernos de desarrollo.",
+      "Backend developed as part of the Jewelry Store Challenge of the Desafio Latam Academy. This REST API implements key functions such as resource limiting and filtering, pagination, sorting and data structuring with HATEOAS, complying with modern development standards.",
     image: "/img/pexels-fauxels-3184170.jpg",
     link: "https://github.com/cristianrozas-cr/tienda_de_joyas_API_REST",
   },
@@ -27,7 +27,7 @@ export const projects = [
     title: "Corporate Websites",
     subtitle: "Wordpress + Elementor",
     description:
-      "Creación de sitios web personalizados en WordPress para pequeñas empresas. Cada proyecto se adapta a las necesidades del cliente, con diseños modernos, optimización para SEO y funcionalidades específicas para mejorar su presencia en línea.",
+      "Development of custom WordPress websites for small businesses. Each project is customized to the client's needs, with modern designs, SEO optimization and specific functionalities to improve their online presence.",
     image: "/img/Screenshot 2025-01-02 at 19.21.26.png",
     link: "https://linktr.ee/cristianrozas_",
   },
