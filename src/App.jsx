@@ -6,6 +6,7 @@ import Projects from "./components/Projects"
 import Skills from "./components/Skills"
 import Services from './components/Services'
 import AboutMe from './components/AboutMe'
+import Footer from './components/Footer'
 import { ShaderGradientCanvas, ShaderGradient } from '@shadergradient/react'
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
       <Projects />
       <Skills />
       <AboutMe />
+      <Footer />
     </main>
     </>
   )

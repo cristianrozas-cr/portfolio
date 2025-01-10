@@ -13,7 +13,7 @@ export default function Navbar() {
 
     return (
       <>
-      <header className="flex justify-center items-center relative">
+      <header className="hidden md:flex justify-center items-center relative">
         <div className="bg-gray-800/80 top-0 z-10 m-3 rounded-full fixed">
           <div className="container sticky mx-auto flex flex-wrapxs flex-col md:flex-row items-center justify-center">
             <nav className="hidden md:flex md:ml-4 md:py-1 md:pl-4 md:border-gray-700	flex md:flex-row flex-col items-center text-base justify-between">
